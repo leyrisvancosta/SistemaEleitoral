@@ -1,0 +1,16 @@
+@media (min-width: 768px) {
+    #nominal_vote , #white_and_null_vote {
+        height: 100%;
+        max-width: 900px;
+        width: 50%;
+    } 
+}
+
+
+@media (max-width: 768px) {
+    #nominal_vote , #white_and_null_vote {
+        width: 100%;
+    }
+}
+
+

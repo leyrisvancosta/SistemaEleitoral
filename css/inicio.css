@@ -1,0 +1,14 @@
+.section__info p {
+    font-size: 1.9rem;
+    display: flex;
+    align-content: center;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .section__info p {
+        font-size: 1.2rem;
+    }
+}

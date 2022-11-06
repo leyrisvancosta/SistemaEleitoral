@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+    background-color: black;
+}
+
+
+header {
+    background: orange;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    /* width: 100vw; */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+main {
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    /* width: 100vw; */
+    padding-bottom: 100px;
+}
+
+
+footer {
+    background-color: orange;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.section__botoes {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+@media (max-width: 768px) {
+    .section__botoes {
+        flex-direction: column;
+
+    }
+    .section__botoes a button {
+        height: 100%;
+        width: 100%;
+        margin: 0 !important;
+        border-radius: 0px !important;
+    }
+    .section__botoes a {
+        height: 100%;
+        width: 100%;
+    }
+
+}
+    
+
+.section__botoes button {
+    background-color: purple;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+.section__botoes button:hover {
+    background-color: rgb(255, 81, 0);
+    color: purple;
+    border: 1px solid purple;
+}
+
+
+.section__info {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+
+#id__footer__title {
+    text-align: center;
+}
+
+
